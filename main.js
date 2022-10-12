@@ -12,8 +12,6 @@ function moveHand(){
     var dt = new Date( ).getSeconds();    
     var deg = dt*6;
     hand.style.transform = `rotate(${deg}deg)`
-    console.log("second")
-    console.log(dt);
 }
 
 
@@ -30,8 +28,6 @@ function moveMin(){
     var dtm = new Date( ).getMinutes();    
     var mDeg = dtm*6;
     min.style.transform = `rotate(${mDeg}deg)`
-    console.log("min")
-    console.log(dtm);
 }
 
 
@@ -46,8 +42,6 @@ function moveHour(){
     var dth = new Date( ).getHours();    
     var hDeg = dth*30;
     hour.style.transform = `rotate(${hDeg}deg)`
-    console.log("hour")
-    console.log(dth);
 }
 
 
