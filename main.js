@@ -52,6 +52,6 @@ function moveHour(){
 
 
 //set up interval to start running the function 
-setInterval (moveMin, 1000);
+setInterval (moveHour, 1000);
 
 
